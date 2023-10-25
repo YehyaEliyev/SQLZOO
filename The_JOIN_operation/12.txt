@@ -1,0 +1,4 @@
+select matchid, mdate, count(teamid) FROM game 
+JOIN goal ON matchid = id 
+where teamid='GER'
+GROUP BY matchid, mdate;

@@ -1,0 +1,3 @@
+SELECT player, teamid, coach, gtime FROM goal go
+join  eteam e on go.teamid=e.id
+WHERE gtime<=10

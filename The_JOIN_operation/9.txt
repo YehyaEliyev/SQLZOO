@@ -1,0 +1,3 @@
+SELECT teamname,count(teamid) player
+  FROM eteam JOIN goal ON id=teamid
+Group BY teamname

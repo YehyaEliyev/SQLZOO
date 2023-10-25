@@ -1,0 +1,3 @@
+SELECT mdate,teamname FROM game ga
+join  eteam e on ga.team1=e.id
+where e.coach= 'Fernando Santos'

@@ -1,0 +1,3 @@
+SELECT stadium, count(player) FROM game ga
+JOIN goal go ON ga.id=go.matchid
+group by stadium
