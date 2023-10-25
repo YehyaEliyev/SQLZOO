@@ -1,0 +1,2 @@
+select count(area) from world
+where area>1000000

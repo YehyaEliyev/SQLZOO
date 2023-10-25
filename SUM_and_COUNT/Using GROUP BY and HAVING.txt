@@ -1,0 +1,2 @@
+select continent,count(name) from world
+group by continent

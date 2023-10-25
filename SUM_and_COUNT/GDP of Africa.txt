@@ -1,0 +1,2 @@
+select sum(GDP) from world
+where continent='Africa'
