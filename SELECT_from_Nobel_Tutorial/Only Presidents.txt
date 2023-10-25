@@ -1,0 +1,3 @@
+SELECT * FROM nobel
+ WHERE winner IN ('Theodore Roosevelt'
+                 ,'Jimmy Carter', 'Barack Obama' )

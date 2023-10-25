@@ -1,0 +1,2 @@
+select yr, subject, winner from nobel
+where (subject = 'physics' and yr=1980) or (subject = 'chemistry ' and yr=1984)
