@@ -1,0 +1,2 @@
+select name , population  from world
+where name ='France' or name='Germany' or name='Italy'

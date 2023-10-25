@@ -1,0 +1,2 @@
+SELECT name,  capital FROM world
+where LEFT(name,1)=Left(capital,1) and name!=capital

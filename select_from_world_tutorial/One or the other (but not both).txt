@@ -1,0 +1,2 @@
+select name, population ,area from world
+where (area> 3000000 and population<250000000) or (area< 3000000 and population>250000000)
